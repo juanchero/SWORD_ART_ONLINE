@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    body {
+        /* Para navegadores que no admiten gradientes lineales */
+        background-color: #4e4376; /* Fallback color */
+        /* Gradiente lineal */
+        background-image: linear-gradient(to right, #1762f9, #1a0231); /* Azul a Morado */
+    }
+}
+h1{
+    color: #ebebeb;
+}
+h1{
+    background-color: rgb(34, 29, 41);
+}
+
+span{
+    color: #eae6f0;
+}
+td{color: aliceblue;}
+tr{color: rgb(185, 205, 215);}
+h1{text-align: center;}
+h1{border-color: brown;}
+container {
+    text-align: center;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0; /* Cambia el color de fondo según tus preferencias */
+}
+
+.container {
+    text-align: center;
+}
+
+.centered-content {
+    display: inline-block;
+    text-align: left;
+}
